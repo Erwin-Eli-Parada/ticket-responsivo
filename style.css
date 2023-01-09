@@ -25,3 +25,16 @@ body{
     justify-content: left;
 }
 
+.contenedor .subcontenedor .encabezado img{
+    width: 120px;
+}
+
+.contenedor .subcontenedor .encabezado .texto{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contenedor .subcontenedor .encabezado .texto .titulo{
+    font-weight: bolder;
+}
