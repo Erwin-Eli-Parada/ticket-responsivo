@@ -64,3 +64,13 @@ body{
     border-color: rgba(0, 0, 0, 0.159);
     border-width: 1px;
 }
+
+.contenedor .subcontenedor .actions .btn-download:hover{
+    background-color: rgb(4, 47, 237);
+    cursor: pointer;
+}
+
+.contenedor .subcontenedor .actions .btn-back:hover{
+    background-color: rgba(234, 234, 234, 0.549);
+    cursor: pointer;
+}
