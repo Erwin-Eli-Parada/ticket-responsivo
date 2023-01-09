@@ -38,3 +38,29 @@ body{
 .contenedor .subcontenedor .encabezado .texto .titulo{
     font-weight: bolder;
 }
+
+.contenedor .subcontenedor .actions{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.contenedor .subcontenedor .actions button{
+    padding: 10px;
+    width: 100px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.contenedor .subcontenedor .actions .btn-download{
+    background-color: rgba(4, 46, 237, 0.773);
+    color: white;
+}
+
+.contenedor .subcontenedor .actions .btn-back{
+    background-color: white;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.159);
+    border-width: 1px;
+}
